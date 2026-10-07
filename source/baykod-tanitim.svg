@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="0.55" stop-color="#eef8ff"/>
+      <stop offset="1" stop-color="#e9f1ff"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#009fc9"/>
+      <stop offset="0.52" stop-color="#0b4fa8"/>
+      <stop offset="1" stop-color="#d20b86"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#075cc8"/>
+      <stop offset="0.55" stop-color="#173c92"/>
+      <stop offset="1" stop-color="#bf0a86"/>
+    </linearGradient>
+    <linearGradient id="footer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#072760"/>
+      <stop offset="1" stop-color="#0b4a91"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#18c7ff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#18c7ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#0b3f78" flood-opacity=".14"/>
+    </filter>
+    <filter id="smallshadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0a3d78" flood-opacity=".12"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg)"/>
+  <circle cx="910" cy="170" r="250" fill="url(#glow)"/>
+  <circle cx="120" cy="1100" r="260" fill="url(#glow)"/>
+
+  <path d="M0 0H280L130 190H0Z" fill="#0b5aa6"/>
+  <path d="M0 0H210L95 145H0Z" fill="#0b2e72"/>
+  <path d="M1080 0H885L980 175H1080Z" fill="#053570" opacity=".94"/>
+  <path d="M1080 1350H845L960 1178H1080Z" fill="#073b78"/>
+
+  <g opacity=".45" stroke="#1ab6e8" stroke-width="2" fill="none">
+    <path d="M44 270H160L210 220H300"/>
+    <circle cx="160" cy="270" r="5" fill="#1ab6e8"/>
+    <circle cx="210" cy="220" r="5" fill="#1ab6e8"/>
+    <path d="M820 250H930L988 192H1048"/>
+    <circle cx="930" cy="250" r="5" fill="#1ab6e8"/>
+    <circle cx="988" cy="192" r="5" fill="#1ab6e8"/>
+  </g>
+
+  <!-- Logo -->
+  <g transform="translate(540 88)" text-anchor="middle">
+    <g transform="translate(-62 -45)" stroke-linecap="round" stroke-width="5" fill="none">
+      <path d="M62 25V2M36 34L18 18M88 34L106 18M27 61H4M97 61H120M36 90L18 108M88 90L106 108M62 98V121" stroke="#0b4fa8"/>
+      <circle cx="62" cy="0" r="6" fill="#0b4fa8"/>
+      <circle cx="16" cy="16" r="6" fill="#00a7c7"/>
+      <circle cx="108" cy="16" r="6" fill="#da4f2b"/>
+      <circle cx="2" cy="61" r="6" fill="#0b4fa8"/>
+      <circle cx="122" cy="61" r="6" fill="#0b4fa8"/>
+      <circle cx="16" cy="110" r="6" fill="#0b4fa8"/>
+      <circle cx="108" cy="110" r="6" fill="#9c258e"/>
+      <circle cx="62" cy="123" r="6" fill="#0b4fa8"/>
+      <polygon points="62,25 95,44 95,81 62,100 29,81 29,44" stroke="url(#brand)" stroke-width="7" fill="#fff"/>
+      <text x="62" y="79" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#0b3e78" text-anchor="middle">B</text>
+    </g>
+    <text x="0" y="122" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" fill="url(#brand)">BAYKOD</text>
+    <text x="0" y="164" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="2" fill="#768395">YAZILIM VE BİLİŞİM</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="540" y="375" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" fill="#092e6b">Tüm Yazılım ve Bilişim</text>
+  <text x="540" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="url(#brand)">Hizmetleri</text>
+
+  <rect x="222" y="476" width="636" height="76" rx="38" fill="url(#pill)" filter="url(#smallshadow)"/>
+  <text x="540" y="526" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800" fill="#fff">Tek Çatıda Hizmetinizde</text>
+
+  <text x="540" y="603" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#25374c">İşletmeniz için modern, güvenilir ve yenilikçi dijital çözümler</text>
+  <circle cx="520" cy="630" r="6" fill="#11c2ee"/><circle cx="540" cy="630" r="6" fill="#0b4fa8"/><circle cx="560" cy="630" r="6" fill="#d20b86"/>
+
+  <!-- service cards -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#082d67">
+    <g transform="translate(72 680)" filter="url(#shadow)">
+      <rect width="292" height="130" rx="24" fill="#fff" stroke="#d9eaff"/>
+      <circle cx="62" cy="65" r="40" fill="#0a7fce"/>
+      <rect x="38" y="45" width="48" height="34" rx="4" fill="none" stroke="#fff" stroke-width="5"/>
+      <path d="M50 88h24" stroke="#fff" stroke-width="5"/>
+      <text x="122" y="74" font-size="27">Web Tasarım</text>
+    </g>
+    <g transform="translate(394 680)" filter="url(#shadow)">
+      <rect width="292" height="130" rx="24" fill="#fff" stroke="#d9eaff"/>
+      <circle cx="62" cy="65" r="40" fill="#0db1c9"/>
+      <path d="M62 37v12M62 81v12M34 65h12M78 65h12M42 45l9 9M73 76l9 9M82 45l-9 9M51 76l-9 9" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="62" cy="65" r="15" fill="none" stroke="#fff" stroke-width="6"/>
+      <text x="122" y="74" font-size="27">Özel Yazılım</text>
+    </g>
+    <g transform="translate(716 680)" filter="url(#shadow)">
+      <rect width="292" height="130" rx="24" fill="#fff" stroke="#d9eaff"/>
+      <circle cx="62" cy="65" r="40" fill="#8f32b0"/>
+      <rect x="48" y="37" width="28" height="54" rx="5" fill="none" stroke="#fff" stroke-width="5"/>
+      <circle cx="62" cy="84" r="2.8" fill="#fff"/>
+      <text x="122" y="61" font-size="25">Mobil</text>
+      <text x="122" y="91" font-size="25">Uygulamalar</text>
+    </g>
+
+    <g transform="translate(72 836)" filter="url(#shadow)">
+      <rect width="292" height="130" rx="24" fill="#fff" stroke="#d9eaff"/>
+      <circle cx="62" cy="65" r="40" fill="#14a9d3"/>
+      <path d="M44 65a18 18 0 0 1 31-12M80 52l-1 12-12-2M80 65a18 18 0 0 1-31 12M44 78l1-12 12 2" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="122" y="59" font-size="24">Otomasyon</text>
+      <text x="122" y="90" font-size="24">Sistemleri</text>
+    </g>
+    <g transform="translate(394 836)" filter="url(#shadow)">
+      <rect width="292" height="130" rx="24" fill="#fff" stroke="#d9eaff"/>
+      <circle cx="62" cy="65" r="40" fill="#0a56aa"/>
+      <path d="M43 68v-8a19 19 0 0 1 38 0v8M43 68v13h10V68H43zm28 0v13h10V68H71z" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+      <text x="122" y="59" font-size="23">Bilişim &amp;</text>
+      <text x="122" y="90" font-size="23">Teknik Destek</text>
+    </g>
+    <g transform="translate(716 836)" filter="url(#shadow)">
+      <rect width="292" height="130" rx="24" fill="#fff" stroke="#d9eaff"/>
+      <circle cx="62" cy="65" r="40" fill="#8d36af"/>
+      <rect x="42" y="40" width="40" height="16" rx="3" fill="none" stroke="#fff" stroke-width="5"/>
+      <rect x="42" y="61" width="40" height="16" rx="3" fill="none" stroke="#fff" stroke-width="5"/>
+      <rect x="42" y="82" width="40" height="12" rx="3" fill="none" stroke="#fff" stroke-width="5"/>
+      <text x="122" y="59" font-size="24">Sunucu &amp;</text>
+      <text x="122" y="90" font-size="24">Altyapı</text>
+    </g>
+  </g>
+
+  <!-- digital workspace -->
+  <g transform="translate(0 1010)">
+    <path d="M110 184H970L900 300H180Z" fill="#0b2c63" opacity=".98"/>
+    <rect x="330" y="36" width="420" height="214" rx="18" fill="#102d53" stroke="#37c7ff" stroke-width="4"/>
+    <rect x="352" y="58" width="376" height="166" rx="8" fill="#061a36"/>
+    <circle cx="540" cy="140" r="65" fill="none" stroke="#1ad6ff" stroke-width="3"/>
+    <ellipse cx="540" cy="140" rx="65" ry="25" fill="none" stroke="#1ad6ff" stroke-width="2"/>
+    <ellipse cx="540" cy="140" rx="25" ry="65" fill="none" stroke="#1ad6ff" stroke-width="2"/>
+    <path d="M475 140H605M540 75V205" stroke="#1ad6ff" stroke-width="2"/>
+    <path d="M280 250H800L735 292H345Z" fill="#183c6e" stroke="#45c8ff" stroke-width="2"/>
+    <g fill="#0c4c8c" stroke="#4ad8ff" stroke-width="2">
+      <rect x="188" y="92" width="88" height="72" rx="12"/>
+      <rect x="800" y="74" width="92" height="78" rx="12"/>
+      <rect x="230" y="188" width="84" height="66" rx="12"/>
+      <rect x="782" y="180" width="90" height="68" rx="12"/>
+    </g>
+    <text x="232" y="138" font-size="33" fill="#fff" font-family="Arial" text-anchor="middle">&lt;/&gt;</text>
+    <text x="846" y="123" font-size="36" fill="#fff" font-family="Arial" text-anchor="middle">☁</text>
+    <text x="272" y="231" font-size="32" fill="#fff" font-family="Arial" text-anchor="middle">⚙</text>
+    <text x="827" y="224" font-size="31" fill="#fff" font-family="Arial" text-anchor="middle">⇧</text>
+  </g>
+
+  <rect x="0" y="1264" width="1080" height="86" fill="url(#footer)"/>
+  <text x="250" y="1318" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#fff">Baykod Yazılım ve Bilişim</text>
+  <line x1="653" y1="1288" x2="653" y2="1330" stroke="#fff" stroke-opacity=".55" stroke-width="2"/>
+  <text x="715" y="1318" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#fff">📍 Kulu / Konya</text>
+</svg>
